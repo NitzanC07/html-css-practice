@@ -7,32 +7,24 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <table>
-      <caption>
-        כותרת הטבלה
-      </caption>
-      <thead>
-        <tr>
-          <th>Incomes</th>
-          <th>Outcomes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>500</td>
-          <td>200</td>
-        </tr>
-        <tr>
-          <td>300</td>
-          <td>50</td>
-        </tr>
-      </tbody>
-      <tfooter>
-        <tr>
-          <td>200</td>
-          <td>150</td>
-        </tr>
-      </tfooter>
-    </table>
+    <form>
+      <fieldset>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" value="John">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" value="John">
+      </fieldset>
+      <fieldset>
+        <label for="phone-number">Phone:</label>
+        <input type="tel" id="phone-number" value="050">
+        <label for="e-mail">E-Mail:</label>
+        <input type="email" id="e-mail" value="@">
+      </fieldset>
+      <fieldset>
+        <textarea rows="10" cols="50"></textarea>
+      </fieldset>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
   </body>
 </html>
