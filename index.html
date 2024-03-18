@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body dir="rtl">
-    <header class="header">תרגיל ראשון ב-CSS - עיצוב טקסט</header>
+    <header class="header">תרגיל שני ב-CSS - עיצוב טקסט</header>
     <main class="main">
       <article>
         <h2 class="textH2">הנהלת הועד הלאומי</h2>
@@ -18,17 +18,17 @@
           width="200"
         />
         <p class="textP">
-          החלטת <a href="#">האו"מ</a> להקים מחדש את מדינתו הריבונית של העם
+          החלטת <a href="#1">האו"מ</a> להקים מחדש את מדינתו הריבונית של העם
           היהודי כחלק ממולדתו העתידה היא מפעל של צדק היסטורי המכפר חלקית לכל
-          הפחות את המעוות ללא דוגמה שנעשה <a href="#">לעם ישראל</a> בדורנו
+          הפחות את המעוות ללא דוגמה שנעשה <a href="#2">לעם ישראל</a> בדורנו
           ובדורות הקודמים זה למעלה מאלף ושמונה מאות שנה.
         </p>
         <p class="textP">
           זהו נצחון מוסרי גדול של רעיון האומות המאוחדות - רעיון
-          <a href="#">הקואופרציה הבינלאומית</a> לחיזוק השלום, הצדק והשויון
+          <a href="#3">הקואופרציה הבינלאומית</a> לחיזוק השלום, הצדק והשויון
           בעולם. העם היהודי יזכור בהכרת תודה את מאמציהן של שתי המעצמות האדירות -
-          <a href="#">ארצות הברית</a> <a href="#">וברית המועצות</a>, וכמו כן של
-          שאר המדינות הקטנות והגדולות שהביאו לידי כך. שיתוף הפעולה של אמריקה
+          <a href="#4">ארצות הברית</a> <a href="#5">וברית המועצות</a>, וכמו כן
+          של שאר המדינות הקטנות והגדולות שהביאו לידי כך. שיתוף הפעולה של אמריקה
           ורוסיה בפתרון בעית ארץ-ישראל היא בשורה מעודדת בשביל כל אלה המאמינים,
           והעם היהודי. באפשרות קואופרציה מתמדת של ארצות המזרח והמערב למען שלום
           בר-קיימא בעולם.
@@ -42,9 +42,9 @@
           החלטת האו"מ על הקמת המדינה היהודית מטילה אחריות כבדה על הישוב והעם
           היהודי כולו. זוהי בעצם תביעה לכל לגלות הכוחות הכבירים- החמריים
           והרוחניים - הדרושים לבנין המדינה. לקליטת המוני
-          <a href="#">עולים</a> מאירופה, מארצות המזרח ומשאר הארצות. ולפיתוח
+          <a href="#6">עולים</a> מאירופה, מארצות המזרח ומשאר הארצות. ולפיתוח
           האדמות הנשמות לעיצוב חברה יהודית עצמאית שתגלם את שלושת היעודים הגדולים
-          של <a href="#">נביאי ישראל</a>: אחוה אנושית, צדק סוציאלי ושלום בין
+          של <a href="#7">נביאי ישראל</a>: אחוה אנושית, צדק סוציאלי ושלום בין
           העמים.
         </p>
         <p class="textP">
@@ -54,34 +54,36 @@
           מקומה באומות המאוחדות כגורם של שלום, פריחה והתקדמות בארץ הקדושה. במזרח
           הקרוב ובעולם כולו.
         </p>
-      </article>
-      <footer>
-        <p>הכתבה במקור מתוך עיתון "דבר" מהתאריך ה-30 בנובמבר 1947.</p>
-      </footer>
 
-      <form>
+        <p class="textCredits">
+          הכתבה במקור מתוך עיתון "דבר" מהתאריך ה-30 בנובמבר 1947.
+        </p>
+      </article>
+
+      <form class="form">
         <fieldset>
-          <legend>הוספת תגובה</legend>
-          <ul style="list-style: none; padding: 0;">
+          <legend class="textForm">הוספת תגובה</legend>
+          <ul style="list-style: none; padding: 0">
             <li>
-              <label for="fullname">שם מלא: </label>
-              <input type="text" id="fullname" required />
+              <label class="textForm" for="fullname">שם מלא: </label>
+              <input type="textForm" id="fullname" required />
             </li>
             <li>
-              <label for="email">דוא"ל: </label>
+              <label class="textForm" for="email">דוא"ל: </label>
               <input type="email" id="email" />
             </li>
-            <li >
-              <label for="comment">תגובה: </label><br />
+            <li>
+              <label class="textForm" for="comment">תגובה: </label><br />
               <textarea id="comment" cols="35" rows="5"></textarea>
             </li>
           </ul>
         </fieldset>
         <fieldset>
-          <button type="submit">שלח</button>
-          <button type="reset">איפוס</button>
+          <button class="textForm" type="submit">שלח</button>
+          <button class="textForm" type="reset">איפוס</button>
         </fieldset>
       </form>
     </main>
+    <footer>ניצן כהן</footer>
   </body>
 </html>
