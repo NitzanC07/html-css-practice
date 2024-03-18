@@ -6,37 +6,3 @@ body {
 .main {
   width: 400px;
 }
-
-.textH1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: 'bold';
-  color: black;
-  text-align: center;
-  /* text-shadow: -3px -3px 2px lightgray; */
-  /* text-shadow: 3px 3px 1px lightgray; */
-  /* text-shadow: 3px 3px 1px lightgray, -3px -3px 2px lightgray; */
-  text-shadow: -4px 4px 1px gray, -8px 8px 1px lightgray, -12px 12px 1px lightgrey;
-}
-
-.textH2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
-}
-
-.textP {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  line-height: 20px;
-  text-align: justify;
-  letter-spacing: 0px;
-  word-spacing: 0.5em;
-  word-break: break-all;  
-  overflow: hidden;
-  text-wrap: wrap;
-}
-
-.textP a {
-  text-decoration: none;
-  font-weight: bold;
-}
