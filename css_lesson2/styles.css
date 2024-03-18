@@ -1,0 +1,39 @@
+@import url('../fonts/fonts.css');
+
+.main {
+  width: 600px;
+  direction: rtl;
+}
+
+.mainTitle {
+  font-family: "RubikDirt", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  line-height: 32px;
+  font-weight: normal;
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  /* color: blue;
+  text-shadow: 2px -2px 1px white, 4px -4px 2px lightskyblue; */
+}
+
+.textP {
+  font-family: "SecularOne", "Rubik", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+  word-spacing: 2px;
+  /* letter-spacing: 1px; */
+  word-break: break-all;
+}
+
+.parent-element {
+  font-size: 25px;
+  font-family: "Rubik", Arial, sans-serif;
+  background-color: #ddd;
+}
+
+.child-element {
+  font-size: 0.7em;
+}
