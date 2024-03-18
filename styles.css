@@ -9,7 +9,11 @@ body {
   width: 400px;
 }
 
-.textH1 {
+.article {
+  border: 1px solid black;
+}
+
+.textH2 {
   font-family: "RubikDirt", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 27px;
   line-height: 29px;
@@ -22,7 +26,7 @@ body {
   /* text-shadow: 2px -2px 1px white, 4px -4px 2px lightgray; */
 }
 
-.textH2 {
+.textH3 {
   font-family: "SecularOne", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 19px;
   line-height: 21px;
@@ -60,8 +64,14 @@ body {
   word-break: break-all;
 }
 
-.textForm {
-  font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
+.textTable {
+  font-family: "SecularOne", "Rubik", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   line-height: 14px;
+  text-align: right; 
+  border: 1px solid lightgray;
+}
+
+.textTable td, th {
+  border: 1px solid lightgray;
 }

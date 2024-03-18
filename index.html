@@ -9,9 +9,9 @@
   <body dir="rtl">
     <header class="header">תרגיל שני ב-CSS - עיצוב טקסט</header>
     <main class="main">
-      <article>
-        <h2 class="textH2">הנהלת הועד הלאומי</h2>
-        <h1 class="textH1">הודעת ד. בן גוריון</h1>
+      <article class="article">
+        <h3 class="textH3">הנהלת הועד הלאומי</h3>
+        <h2 class="textH2">הודעת ד. בן גוריון</h2>
         <img
           src="./benguryon.jpg"
           alt="ראש הממשלה הראשון - דוד בן גוריון"
@@ -60,29 +60,87 @@
         </p>
       </article>
 
-      <form class="form">
-        <fieldset>
-          <legend class="textForm">הוספת תגובה</legend>
-          <ul style="list-style: none; padding: 0">
-            <li>
-              <label class="textForm" for="fullname">שם מלא: </label>
-              <input type="textForm" id="fullname" required />
-            </li>
-            <li>
-              <label class="textForm" for="email">דוא"ל: </label>
-              <input type="email" id="email" />
-            </li>
-            <li>
-              <label class="textForm" for="comment">תגובה: </label><br />
-              <textarea id="comment" cols="35" rows="5"></textarea>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset>
-          <button class="textForm" type="submit">שלח</button>
-          <button class="textForm" type="reset">איפוס</button>
-        </fieldset>
-      </form>
+      <article class="article">
+        <h2 class="textH2">סכויי מזג האויר</h2>
+        <p class="textP">מזג האויר יהיה יפה. הטמפרטורה תעלה במקצת.</p>
+        <table class="textTable">
+          <tr>
+            <th>27 בנובמבר</th>
+            <th>טמפ' מינימום</th>
+            <th>טמפ' מכסימום</th>
+            <th>לחות יחסית (%)</th>
+            <th>לחות יחסית (%)</th>
+          </tr>
+          <tr>
+            <td>הר כנען</td>
+            <td>9.4</td>
+            <td>18.0</td>
+            <td>68</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>הר הכרמל</td>
+            <td>14.0</td>
+            <td>23.3</td>
+            <td>60</td>
+            <td>57</td>
+          </tr>
+          <tr>
+            <td>בית שאן</td>
+            <td>10.6</td>
+            <td>25.4</td>
+            <td>84</td>
+            <td>47</td>
+          </tr>
+          <tr>
+            <td>נתניה</td>
+            <td>12.8</td>
+            <td>23.6</td>
+            <td>85</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <td>תל-אביב</td>
+            <td>11.0</td>
+            <td>22.8</td>
+            <td>79</td>
+            <td>57</td>
+          </tr>
+          <tr>
+            <td>לוד</td>
+            <td>10.9</td>
+            <td>24.7</td>
+            <td>76</td>
+            <td>49</td>
+          </tr>
+          <tr>
+            <td>ירושלים</td>
+            <td>10.3</td>
+            <td>20.7</td>
+            <td>68</td>
+            <td>52</td>
+          </tr>
+          <tr>
+            <td>עזה</td>
+            <td>12.5</td>
+            <td>24.0</td>
+            <td>83</td>
+            <td>53</td>
+          </tr>
+          <tr>
+            <td>באר שבע</td>
+            <td>10.5</td>
+            <td>21.5</td>
+            <td>82</td>
+            <td>61</td>
+          </tr>
+        </table>
+        <p class="textCredits">
+          הכתבה במקור מתוך עיתון "דבר", מהתאריך ה-28 בנובמבר 1947.
+        </p>
+      </article>
+
+      
     </main>
     <footer>ניצן כהן</footer>
   </body>
