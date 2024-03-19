@@ -6,12 +6,12 @@ body {
 }
 
 .main {
-  width: 400px;
+  width: 100%;
 }
 
-.article {
+/* .article {
   border: 1px solid black;
-}
+} */
 
 .textH2 {
   font-family: "RubikDirt", Verdana, Geneva, Tahoma, sans-serif;
@@ -30,7 +30,7 @@ body {
   font-family: "SecularOne", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 19px;
   line-height: 21px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: right;
   word-spacing: 1px;
   letter-spacing: 1px;
