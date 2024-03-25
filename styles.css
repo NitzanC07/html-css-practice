@@ -5,6 +5,15 @@ body {
   direction: rtl;
 }
 
+header, footer {
+  background-color: #444;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  color: #bbb;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
 .main {
   width: 100%;
 }
@@ -21,9 +30,10 @@ body {
   text-align: center;
   word-spacing: 3px;
   letter-spacing: 2px;
-  /* color: blue; */
+}
+.textH2:hover {
   /* text-shadow: 2px -2px 1px white, 4px -4px 2px lightskyblue;-12px 12px 1px lightgrey; */
-  /* text-shadow: 2px -2px 1px white, 4px -4px 2px lightgray; */
+  text-shadow: 2px -2px 1px white, 4px -4px 2px lightgray;
 }
 
 .textH3 {
@@ -48,12 +58,8 @@ body {
 
 .textP a {
   text-decoration: none;
-  color: darkcyan;
 }
 
-.textP a:hover {
-  color: cyan;
-}
 .textCredits {
   font-family: "SecularOne", "Rubik", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
