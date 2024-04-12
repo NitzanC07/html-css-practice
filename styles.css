@@ -2,7 +2,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
+header, footer {
+  background-color: #444;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  color: #bbb;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
 .main {
   width: 100%;
 }
